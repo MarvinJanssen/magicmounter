@@ -1,0 +1,19 @@
+{
+"name": "marvinjanssen/magicmounter",
+"description": "PHP stream wrapper library to magically mount local or remote filesystems.",
+"keywords": ["fs","ftp","ftps","php"],
+"homepage": "https://github.com/marvinjanssen/magicmounter",
+"license": ["MIT"],
+"authors":
+	[
+		{
+		"name": "Marvin Janssen",
+		"homepage": "http://marvinjanssen.me"
+		}
+	],
+"autoload":
+	{
+	"files": ["src/magicmounter.php"],
+	"classmap": ["src/"]
+	}
+}
