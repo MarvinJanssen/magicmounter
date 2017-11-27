@@ -1,6 +1,6 @@
 # MagicMounter
 
-**MagicMounter** , by Marvin Janssen (http://marvinjanssen.me), released in 2017.
+**MagicMounter**, by Marvin Janssen (http://marvinjanssen.me), released in 2017.
 
 **MagicMounter** can magically mount "anything". These mounts can then be universally accessed using any of PHP's file/stream functions via the `magic://` stream wrapper. What
 makes MagicMounter unique is that it the underlying driver for a mount is transparent to the end-user. Thus, you may at one point mount a local directory at `magic://production`, and later mount a remote directory via FTP at the same mount point.
@@ -20,7 +20,18 @@ Where:
 - `$options`: optional driver-specific options, see the driver classes for more information.
 
 
-# Example code
+# Usage
+
+Install via Composer:
+
+`composer require marvinjanssen/magicmounter`
+
+Download project as zip file and include:
+
+`require 'magicmounter/src/magicmounter.php'`
+
+
+## Example code
 
 ```php
 // Local filesystem:
